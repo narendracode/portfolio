@@ -2,8 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
-    "build": "npm run setup && next build",
-    "build-only": "next build",
+    "build": "next build",
+    "setup-build": "npm run setup && next build",
     "start": "next start",
     "setup": "node ./setup.mjs",
     "lint": "next lint"

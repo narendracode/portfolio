@@ -5,6 +5,7 @@ export const sql = postgres(process.env.POSTGRES_URL, {
 });
 
 const nextConfig = {
+  basePath: "/portfolio",
   experimental: {
     ppr: false,
   },
